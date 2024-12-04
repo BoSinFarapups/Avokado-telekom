@@ -18,3 +18,12 @@
   <ul>
     MySQL
   </ul>
+<br>
+
+Главная страница без входа: <br>
+
+![image](https://github.com/user-attachments/assets/82638f15-17fd-4907-8acc-54b0bc6b5fda)
+
+Главная страница со входом: <br>
+
+![image](https://github.com/user-attachments/assets/36c515b9-2b99-43f7-bfb9-1454a0344320)
