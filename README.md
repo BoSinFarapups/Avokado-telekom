@@ -27,3 +27,10 @@
 Главная страница со входом: <br>
 
 ![image](https://github.com/user-attachments/assets/36c515b9-2b99-43f7-bfb9-1454a0344320)
+
+<hr>
+
+<ul>
+  Аккаунт оператора :![image](https://github.com/user-attachments/assets/98cd8f96-0fca-4024-90dc-2eb9a5bf4c93)
+  
+</ul>
