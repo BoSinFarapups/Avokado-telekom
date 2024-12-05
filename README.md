@@ -24,13 +24,15 @@
 
 ![image](https://github.com/user-attachments/assets/82638f15-17fd-4907-8acc-54b0bc6b5fda)
 
+
+<hr>
+
+<br> Для пользователей :
+<ul>
+
 Главная страница со входом: <br>
 
 ![image](https://github.com/user-attachments/assets/36c515b9-2b99-43f7-bfb9-1454a0344320)
-
-Аккаунт оператора: <br>
-  
-![image](https://github.com/user-attachments/assets/2bce5952-86ba-479c-b485-03b12d0fc4eb)
 
 Оплата услуг:  <br>
 
@@ -51,3 +53,24 @@
 Нахождение офиса: <br>
 
 ![image](https://github.com/user-attachments/assets/790c5a86-8d15-4986-9157-a3ed74848324)
+</ul>
+
+<hr>
+
+<br> Для сервисных операторов :
+<ul>
+
+  Аккаунт оператора: <br>
+  
+![image](https://github.com/user-attachments/assets/2bce5952-86ba-479c-b485-03b12d0fc4eb)
+</ul>
+
+<hr>
+
+<br> Для админов :
+<ul>
+
+  Аккаунт админа: <br>
+
+  ![image](https://github.com/user-attachments/assets/d75af3cb-0806-4c2b-93ce-d565fa95a108)
+</ul>
