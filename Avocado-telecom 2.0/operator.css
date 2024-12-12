@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #74a474;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.operator {
+    margin-right: 20px;
+    background-color: #95c495;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.account-info {
+    display: flex;
+    align-items: center;
+    background-color: #d0d467;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.user-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #f0cf5a;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.chat, .payments {
+    width: 45%;
+    background-color: #8fb98f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.messages {
+    background-color: #a6cf90;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f3e7b5;
+    border-radius: 16px;
+}
+
+.operator {
+    text-align: left;
+}
+
+.user {
+    text-align: right;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+}
+
+.input-field input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.input-field button {
+    background-color: #f0cf5a;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.payments ul {
+    list-style: none;
+    padding: 0;
+}
+
+.payments li {
+    background-color: #f3e7b5;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #8fb98f;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}

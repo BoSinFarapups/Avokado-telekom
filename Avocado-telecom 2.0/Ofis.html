@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авокадо-телеком</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #5D9E5F;
+            padding: 10px 20px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .navigation {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+        .navigation li {
+            display: inline;
+            color: white;
+        }
+        .user-actions {
+            display: flex;
+            gap: 10px;
+        }
+        .main {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .main img {
+            max-width: 100%;
+            border: 3px solid #5D9E5F;
+            border-radius: 8px;
+        }
+        .info-box {
+            max-width: 40%;
+            background-color: #fffde7;
+            padding: 10px;
+            border-radius: 8px;
+            border: 2px solid #5D9E5F;
+        }
+        .footer {
+            background-color: #5D9E5F;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Лого">
+            <span>Авокадо-телеком</span>
+        </div>
+        <ul class="navigation">
+            <li>Главная</li>
+            <li>Оплата услуг</li>
+            <li>Игровой пакет</li>
+        </ul>
+        <div class="user-actions">
+            <span>Помощь</span>
+            <span>Личный кабинет</span>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div>
+            <img src="building.jpg" alt="Фото здания">
+        </div>
+        <div class="info-box">
+            <p>Офис находится на улице бла-бла-бла, дом 777</p>
+            <p>Приемные дни: пн-сб 10:00-18:00 | вс выходной</p>
+            <p>Прием клиентов принимается по заявкам по номеру телефона: +777-666-228</p>
+            <img src="map.png" alt="Карта">
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Контакт для связи: <a href="mailto:shock@dignal.ru">shock@dignal.ru</a> | +777-666-228</p>
+        <p>Все права защищены сайтом авокадо.</p>
+    </div>
+
+</body>
+</html>

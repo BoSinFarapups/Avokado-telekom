@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авокадо-телеком</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #5D9E5F;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar {
+            display: flex;
+        }
+        .navbar a {
+            color: #444;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            color: #FFD700;
+        }
+        .user-info {
+            background-color: #ABB97F;
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+        .content {
+            display: flex;
+            margin: 20px;
+        }
+        .news, .services {
+            margin: 0 15px;
+        }
+        .news img {
+            max-width: 100%;
+        }
+        .service-box {
+            background-color: #FFD270;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #5D9E5F;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="brand">
+            <img src="icol.png" alt="Логотип" style="height:40px; vertical-align: middle;">
+            Авокадо-телеком
+        </div>
+
+        <div class="navbar">
+            <a href="#">Главная</a>
+            <a href="#">Оплата услуг</a>
+            <a href="#">Игровой пакет</a>
+        </div>
+
+        <div class="user-actions">
+            <span class="user-info">Вы вошли как пользователь: <strong>Abudabi777</strong></span>
+            <a href="#">Помощь</a>
+            <a href="#">Личный кабинет</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="news">
+            <h2>Новости о нас!</h2>
+            <div>
+                <img src="riri.jpg" alt="Защита от атак">
+                <p>Защитили базу наших клиентов от атак хакеров и расскажем как обезопасить себя от угроз в интернете.</p>
+            </div>
+            <div>
+                <img src="ruru.jpg" alt="Отзыв клиента">
+                <p>Сомневаетесь в наших услугах? Прочитайте реальные отзывы наших клиентов о нас.</p>
+            </div>
+
+            <div style="background-color:#eee; padding: 10px; margin-top: 20px;">
+                <p>Есть вопросы? Задайте их нашей команде!</p>
+                <button style="background-color:#6BA056; color: white; border: none; padding: 10px; border-radius: 5px;">Задать вопрос</button>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="service-box">
+                <strong>Базовый интернет:</strong><br>Скорость соединения 100 мб/сек
+                <button>Подключить</button>
+            </div>
+            <div class="service-box">
+                <strong>Продвинутый интернет:</strong><br>Скорость соединения 500 мб/сек
+                <button>Подключить</button>
+            </div>
+            <div class="service-box">
+                <strong>Игровой интернет:</strong><br>Скорость соединения 1000 мб/сек
+                <button>Подключить</button>
+            </div>
+            <div class="service-box">
+                <strong>Супер-скоростной интернет:</strong><br>Скорость соединения 2000 мб/сек
+                <button>Подключить</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Контакты для связи: email@domain.ru, 777-666-888</p>
+        <p>© Все права защищены сайтом Авокадо-телеком</p>
+    </div>
+</body>
+</html>

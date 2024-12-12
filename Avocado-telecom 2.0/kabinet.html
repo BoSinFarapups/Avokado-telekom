@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авокадо-телеком</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #7bb074;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            align-items: center;
+        }
+        .header img {
+            height: 50px;
+        }
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+        }
+        .menu a:hover {
+            border-bottom: 2px solid white;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .info, .notifications {
+            background-color: #7bb074;
+            padding: 20px;
+            border-radius: 15px;
+            width: 45%;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        .save-btn {
+            background-color: #d5e8d4;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+        }
+        .notification {
+            background-color: #fdf3b4;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #7bb074;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="branding">
+            <img src="logo.png" alt="Логотип">
+            <span>Авокадо-телеком</span>
+        </div>
+        <div class="menu">
+            <a href="#">Главная</a>
+            <a href="#">Оплата услуг</a>
+            <a href="#">Игровой пакет</a>
+        </div>
+        <div class="location">
+            <span>Ненецкий автономный округ</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="info">
+            <h3>Информация о вас</h3>
+            <div class="input-group">
+                <label>Имя</label>
+                <input type="text" placeholder="введите">
+            </div>
+            <div class="input-group">
+                <label>Фамилия</label>
+                <input type="text" placeholder="введите">
+            </div>
+            <div class="input-group">
+                <label>Отчество (по желанию)</label>
+                <input type="text" placeholder="введите">
+            </div>
+            <div class="input-group">
+                <label>Номер телефона</label>
+                <input type="text" placeholder="введите">
+            </div>
+            <button class="save-btn">Сохранить</button>
+        </div>
+
+        <div class="notifications">
+            <h3>Уведомление</h3>
+            <div class="notification">щщлашщцлщщлавалдвадвладавл</div>
+            <div class="notification">щщлашщцлщщлавалдвадвладавл</div>
+            <div class="notification">щщлашщцлщщлавалдвадвладавл</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Контакты для связи: +777-666-2323 | sokolsk@mail.ru | Все права защищены © Авокадо</p>
+    </div>
+</body>
+</html>
